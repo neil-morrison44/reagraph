@@ -1,4 +1,4 @@
-import { InternalGraphEdge, InternalGraphNode } from 'types';
+import { InternalGraphEdge, InternalGraphNode } from '../types';
 import { DepthNode, getNodeDepth } from './depthUtils';
 import { LayoutStrategy } from './types';
 import { hierarchy, stratify, tree } from 'd3-hierarchy';

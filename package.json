@@ -12,6 +12,7 @@
     "start": "start-storybook -p 9009",
     "copy": "cp CNAME storybook-static/",
     "build-storybook": "build-storybook",
+    "prepublish": "rollup -c",
     "prepare": "husky install",
     "chromatic": "npx chromatic --project-token=a7098a56897c --auto-accept-changes"
   },
